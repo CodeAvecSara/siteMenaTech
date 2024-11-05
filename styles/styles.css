@@ -1,0 +1,70 @@
+.nav-logo {
+    height: 100%;
+    max-height: 50px;
+}
+.background-image {
+    background-image: url('../imgs/tech_event.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.background-image2 {
+    background-image: url('../imgs/back2.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+   
+}
+.font-convergence {
+    font-family: 'Convergence', sans-serif;
+}
+.custom-input {
+    background-color: rgba(125, 51, 237, 0.2); /* Light blue background */
+}
+.custom-input::placeholder {
+    color: #49454f; /* Couleur du placeholder */
+    opacity: 1; /* Assurez-vous que le placeholder est complètement opaque */
+}
+.date-selector {
+    display: flex;
+    gap: 1rem;
+}
+
+.date-circle {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    border-radius: 50%;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.date-circle.selected {
+    background-color: #2d256c; /* Couleur de sélection */
+    color: white;
+}
+
+.date-circle:hover {
+    background-color: rgba(45, 37, 108, 0.2);
+}
+
+/* styles.css */
+.responsive-padding {
+    padding-top: 2px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .responsive-padding {
+        padding-top: 5.5px;
+        margin: auto;
+    }
+}
+
+
+
